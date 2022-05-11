@@ -1,0 +1,5 @@
+query getCollectionQuery {
+  checkCollectionApprove (user: "0x3F92602154f384d6A8205033729c75A3E67a9a9d") {
+    isApproved
+  }
+}

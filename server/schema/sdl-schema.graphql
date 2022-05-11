@@ -1,0 +1,7 @@
+type Query {
+  checkCollectionApprove(user: String!): IsApproved!
+}
+
+type IsApproved {
+  isApproved: Boolean!
+}
